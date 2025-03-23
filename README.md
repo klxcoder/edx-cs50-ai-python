@@ -2,7 +2,7 @@
 [Course Link](https://learning.edx.org/course/course-v1:HarvardX+CS50AI+1T2020/home)  
 
 ## Contents  
-- [ ] [**Introduction**](#introduction)  
+- [x] [**Introduction**](#introduction)  
 - [ ] [**Search**](#search)  
 - [ ] [**Knowledge**](#knowledge)  
 - [ ] [**Uncertainty**](#uncertainty)  
