@@ -3,7 +3,7 @@
 
 ## Contents  
 - [x] [**Introduction**](#introduction)  
-- [ ] [**Search**](#search)  
+- [x] [**Search**](#search)  
 - [ ] [**Knowledge**](#knowledge)  
 - [ ] [**Uncertainty**](#uncertainty)  
 - [ ] [**Optimization**](#optimization)  
@@ -75,6 +75,8 @@
     + Search algorithm to use
       * minimax
       * alpha-beta pruning
+      * Depth-limited minimax
+      * Evaluation function
 
 ## Knowledge  
 (TBD)  
