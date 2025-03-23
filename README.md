@@ -121,7 +121,21 @@
   - Backtracking search
 
 ## Learning  
-(TBD)  
+  - Supervised learning
+    + Given a data set of input-output pairs, learn a function to map inputs to outputs
+  - Nearest-Neighbor Classification
+  - Perceptron learning
+  - Support Vector Machines
+  - Regression
+  - Loss functions
+  - Overfitting
+  - Regularization
+  - scikit-learn
+  - Reinforcement Learning
+  - Markov Decision Processes
+  - Q-learning
+  - Unsupervised Learning
+  - k-means Clustering
 
 ## Neural Networks  
 (TBD)  
