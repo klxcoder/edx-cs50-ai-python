@@ -6,7 +6,7 @@
 - [x] [**Search**](#search) [video](https://youtu.be/D5aJNFWsWew)
 - [ ] [**Knowledge**](#knowledge) [video](https://youtu.be/HWQLez87vqM)
 - [ ] [**Uncertainty**](#uncertainty) [video](https://youtu.be/D8RRq3TbtHU)
-- [ ] [**Optimization**](#optimization) [video](https://youtu.be/qK46ET1xk2A)
+- [x] [**Optimization**](#optimization) [video](https://youtu.be/qK46ET1xk2A)
 - [ ] [**Learning**](#learning) [video](https://youtu.be/-g0iJjnO2_w)
 - [ ] [**Neural Networks**](#neural-networks) [video](https://youtu.be/J1QD9hLDEDY)
 - [ ] [**Language**](#language) [video](https://youtu.be/QAZc9xsQNjQ)
@@ -102,6 +102,23 @@
       * first-choice: choose the first higher-valued neighbor
       * random-restart: conduct hill climbing multiple times
       * local beam search: chooses the k highest-valued neighbors
+  - Simulated annealing
+    + Early on, higher "temperature": more likely to accept neighbors that are worse than current state
+    + Later on, lower "temperature": less likely to accept neighbors that are worse than current state
+  - Traveling salesman problem
+  - Linear programming algorithms
+    + Simplex
+    + Interior-Point
+  - Constraint satisfaction problem (CSP)
+    + variables
+    + domains
+    + constraints:
+      * hard constraints/soft constraints
+      * unary constraint/binary constraint
+  - Node consistency
+  - Arc consistency
+    + AC-3
+  - Backtracking search
 
 ## Learning  
 (TBD)  
