@@ -2,7 +2,7 @@
 [Course Link](https://learning.edx.org/course/course-v1:HarvardX+CS50AI+1T2020/home)  
 
 ## Contents  
-- [x] [**Introduction**](#introduction)  
+- [x] [**Introduction**](#introduction) 
 - [x] [**Search**](#search)  
 - [ ] [**Knowledge**](#knowledge)  
 - [ ] [**Uncertainty**](#uncertainty)  
@@ -12,8 +12,9 @@
 - [ ] [**Language**](#language)  
 
 ---
-
-## Introduction  
+---
+## Introduction
+  <video controls src="https://edx-video.net/3a64c0ea-1f2c-4121-9192-d91d5772830f-mp4_720p.mp4" title="Introduction"></video>
   - Short video introduce topics we will learn in the course
 
 ## Search
