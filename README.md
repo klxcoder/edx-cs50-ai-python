@@ -51,14 +51,17 @@
       * Expand node, add resulting nodes to the frontier if they aren't already in the frontier or the explored set
   - Stack
     Last-in first-out data type
-    Use in DFS
+    Use in DFS (Depth First Search)
     Expand the deepest node in the frontier
   - Queue
     Fist-in first-out data type
-    Use in BFS
+    Use in BFS (Breadth First Search)
     Expand the shallowest node in the frontier
+  - Uniform search
+    + Search strategy that uses no problem-specific knowledge
   - Heuristic function
   - Greedy Best-Frist Search
+    + Search algorithm that expands the node that is closet to the goal, as estimated by a heuristic function h(n)
   - A* search:
     + Search algorithm that expands node with lowest value of g(n) + h(n)
     + g(n) = cost to reach node
