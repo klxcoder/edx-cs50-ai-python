@@ -73,7 +73,8 @@
       * chess
       * go
     + Search algorithm to use
-      * minimax (1h15m09s)
+      * minimax
+      * alpha-beta pruning
 
 ## Knowledge  
 (TBD)  
