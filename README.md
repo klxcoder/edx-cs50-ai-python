@@ -2,19 +2,18 @@
 [Course Link](https://learning.edx.org/course/course-v1:HarvardX+CS50AI+1T2020/home)  
 
 ## Contents  
-- [x] [**Introduction**](#introduction) 
-- [x] [**Search**](#search)  
-- [ ] [**Knowledge**](#knowledge)  
-- [ ] [**Uncertainty**](#uncertainty)  
-- [ ] [**Optimization**](#optimization)  
-- [ ] [**Learning**](#learning)  
-- [ ] [**Neural Networks**](#neural-networks)  
-- [ ] [**Language**](#language)  
+- [x] [**Introduction**](#introduction) [video](https://edx-video.net/3a64c0ea-1f2c-4121-9192-d91d5772830f-mp4_720p.mp4) 
+- [x] [**Search**](#search) [video](https://youtu.be/D5aJNFWsWew)
+- [ ] [**Knowledge**](#knowledge) [video](https://youtu.be/HWQLez87vqM)
+- [ ] [**Uncertainty**](#uncertainty) [video](https://youtu.be/D8RRq3TbtHU)
+- [ ] [**Optimization**](#optimization) [video](https://youtu.be/qK46ET1xk2A)
+- [ ] [**Learning**](#learning) [video](https://youtu.be/-g0iJjnO2_w)
+- [ ] [**Neural Networks**](#neural-networks) [video](https://youtu.be/J1QD9hLDEDY)
+- [ ] [**Language**](#language) [video](https://youtu.be/QAZc9xsQNjQ)
 
 ---
----
+
 ## Introduction
-  <video controls src="https://edx-video.net/3a64c0ea-1f2c-4121-9192-d91d5772830f-mp4_720p.mp4" title="Introduction"></video>
   - Short video introduce topics we will learn in the course
 
 ## Search
