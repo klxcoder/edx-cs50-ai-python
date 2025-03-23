@@ -60,6 +60,7 @@
   - Uniform search
     + Search strategy that uses no problem-specific knowledge
   - Heuristic function
+    + Manhattan distance
   - Greedy Best-Frist Search
     + Search algorithm that expands the node that is closet to the goal, as estimated by a heuristic function h(n)
   - A* search:
