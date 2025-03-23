@@ -85,7 +85,23 @@
 (TBD)  
 
 ## Optimization  
-(TBD)  
+  - Local search
+    + Search algorithms that maintain a single node and searches by moving to a neighboring node
+  - Global maximum
+    + objective function
+  - Global minimum
+    + cost function
+  - Hill climbing
+    + Local maxima
+    + Local minima
+    + Flat local maximum
+    + Shoulder
+    + Hill climbing variants
+      * steepest-ascent: choose the highest-valued neighbor
+      * stochastic: choose randomly from higher-valued neighbors
+      * first-choice: choose the first higher-valued neighbor
+      * random-restart: conduct hill climbing multiple times
+      * local beam search: chooses the k highest-valued neighbors
 
 ## Learning  
 (TBD)  
