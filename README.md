@@ -198,9 +198,65 @@
         algorithm for clustering data based on repeatedly assigning points to clusters and updating those clusters' centers
   - k-means Clustering
 
-## Neural Networks  
-(TBD)  
-
+## Neural Networks
+  - Artificial neural network
+    + Mathematical model for learning inspired by biological neural networks
+    + Model mathematical function from inputs to outputs based on the structure and parameters of the network
+    + Allows for learning the network's parameters based on data
+  - Gradient Descent
+    + algorithm for minimizing loss when training neural network
+    + Start with a random choice of weights
+    + Repeat:
+      * Calculate the gradient based on `all data points`: direction that will lead to decreasing loss
+      * Update weights according to the gradient
+  - Stochastic Gradient Descent
+    ~~all data points~~ => `one data point`
+  - Mini-Batch Gradient Descent
+    `one small batch`
+  - Multilayer neural network
+    + artifical neural network with an input layer, an output layer, and at least one hidden layer
+  - Backpropagation
+    + algorithm for training neural networks with hidden layers
+    + Start with a random choice of weights
+    + Repeat:
+      * Calculate error for output layer
+      * For each layer, starting with output layer, and moving inwards towards earliest hidden layer
+        + Propagate error back one layer
+        + Update weights
+  - Deep neural networks
+    + Neural network with multiple hidden layers
+  - Overfitting
+    + Dropout
+      * temporarily removing units - selected at random - from a neural network to prevent over-reliance on certain units
+  - TensorFlow
+    + playground.tensorflow.org
+    + activation functions
+      * relu
+      * sigmoid
+      * softmax
+    + loss functions
+      * binary_crossentropy
+      * categorical_crossentropy
+    + optimizer
+      * adam
+  - Computer Vision
+    + computational methods for analyzing and understanding digital images
+  - Image Convolution
+    + Applying a filter that adds each pixel value of an image to its neighbors, weighted according to a kernal matrix
+  - Pooling
+    + Reducing the size of an input by sampling from regions in the input
+  - max-pooling
+    + pooling by choosing the maximum value in each region
+  - Convolutional Neural Networks
+    + Neural networks that use convolution, usually for analyzing images
+    ![Convolutional Neural Network](./images/cnn.png)
+    ![Convolutional Neural Network (2 times)](./images/cnn2.png)
+  - feed-forward neural network
+    + Neural network that has connections only in one direction
+  - Recurrent Neural Networks
+    ![RNN - Image to text](./images/rnn.png)
+    ![RNN - Youtube](./images/rnn2.png)
+    ![RNN - Google Translate](./images/rnn3.png)
 ## Language  
 (TBD)  
 
