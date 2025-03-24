@@ -7,7 +7,7 @@
 - [ ] [**Knowledge**](#knowledge) [video](https://youtu.be/HWQLez87vqM)
 - [ ] [**Uncertainty**](#uncertainty) [video](https://youtu.be/D8RRq3TbtHU)
 - [x] [**Optimization**](#optimization) [video](https://youtu.be/qK46ET1xk2A)
-- [ ] [**Learning**](#learning) [video](https://youtu.be/-g0iJjnO2_w)
+- [x] [**Learning**](#learning) [video](https://youtu.be/-g0iJjnO2_w)
 - [ ] [**Neural Networks**](#neural-networks) [video](https://youtu.be/J1QD9hLDEDY)
 - [ ] [**Language**](#language) [video](https://youtu.be/QAZc9xsQNjQ)
 
@@ -159,10 +159,43 @@
     + State
     + Action
     + Reward
-    + Will continue from https://www.youtube.com/watch?v=-g0iJjnO2_w&t=4382s
+    + Explore/Exploit
   - Markov Decision Processes
+    + model for decision-making, representing states, actions, and their rewards
+    + set of states S
+    + set of actions A
+    + transition model P(s'|s,a)
+    + Reward function R(s,a,s')
   - Q-learning
+    + method for learning a function Q(s,a), estimate of the value of performing action a in state s
+    + Start with Q(s,a)=0 for all s,a
+    + Every time we take an action a in state s and observe a reward r, we update:
+      Q(s,a)=Q(s,a)+alpha*(new_value_estimate-Q(S,a))
+      Q(s,a)=Q(s,a)+alpha*((r+future_reward_estimate)-Q(S,a))
+      Q(s,a)=Q(s,a)+alpha*((r+max(Q(s',a')))-Q(S,a))
+    + alpha is learning rate
+    + alpha is from 0 to 1
+    + if alpha is closer to 1: new value is more important
+    + if alpha is closer to 0: old value is more important
+  - Greedy Decision-Making
+    + When in state s, choose action a with highest Q(s,a)
+    + ε = 1 (epsilon)
+  - ε-greedy
+    + Set ε equal to how often we want to move randomly
+    + With probability 1-ε, choose estimated best move
+    + With probability ε, choose a random move
+    + Decrease ε from 1 to 0 overtime to reduce randomness
   - Unsupervised Learning
+    + Clustering
+      * organizing a set of objects into groups in such a way that similar objects tend to be in the same group
+      * Some clustering applications:
+        Genetic research
+        Image segmentation
+        Market research
+        Medical imaging
+        Social network analysis
+      * k-mean clustering
+        algorithm for clustering data based on repeatedly assigning points to clusters and updating those clusters' centers
   - k-means Clustering
 
 ## Neural Networks  
