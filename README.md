@@ -150,9 +150,16 @@
     + cost(h) = loss(h) + λ * complexity(h)
     + holdout cross-validation:
       * splitting data into a training set and a test set, such that learning happens on the training set and is evaluated on the test set
-      <!-- Will continue from https://youtu.be/-g0iJjnO2_w?t=3415 -->
+    + k-fold cross-validation:
+      * splitting data into k sets, and experimenting k times, using each set as a test set once, and using remaining data as training set
   - scikit-learn
   - Reinforcement Learning
+    + Agent
+    + Environment
+    + State
+    + Action
+    + Reward
+    + Will continue from https://www.youtube.com/watch?v=-g0iJjnO2_w&t=4382s
   - Markov Decision Processes
   - Q-learning
   - Unsupervised Learning
