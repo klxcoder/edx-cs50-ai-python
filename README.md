@@ -116,13 +116,14 @@
       * hard constraints/soft constraints
       * unary constraint/binary constraint
   - Node consistency
-  - Arc consistency
-    + AC-3
-  - Backtracking search
+  - Arc consistency (AC-3)
+  - Backtracking search (brute force with constraint pruning)
 
 ## Learning  
   - Supervised learning
     + Given a data set of input-output pairs, learn a function to map inputs to outputs
+    + Classification:
+      * Supervised learning task of learning a function mapping an input point to a discrete category
   - Nearest-Neighbor Classification
   - Perceptron learning
   - Support Vector Machines
