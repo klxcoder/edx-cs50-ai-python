@@ -1,8 +1,8 @@
 # CS50's Introduction to Artificial Intelligence with Python  
 [Course Link](https://learning.edx.org/course/course-v1:HarvardX+CS50AI+1T2020/home)  
 
-## Contents  
-- [x] [**Introduction**](#introduction) [video](https://edx-video.net/3a64c0ea-1f2c-4121-9192-d91d5772830f-mp4_720p.mp4) 
+## Contents [youtube-playlist](https://youtube.com/playlist?list=PLhQjrBD2T382Nz7z1AEXmioc27axa19Kv&si=zKXYVQFG5lwtb7tC)
+- [x] [**Introduction**](#introduction) [video](https://youtu.be/gR8QvFmNuLE) 
 - [x] [**Search**](#search) [video](https://youtu.be/D5aJNFWsWew)
 - [ ] [**Knowledge**](#knowledge) [video](https://youtu.be/HWQLez87vqM)
 - [ ] [**Uncertainty**](#uncertainty) [video](https://youtu.be/D8RRq3TbtHU)
