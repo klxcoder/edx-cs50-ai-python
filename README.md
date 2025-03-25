@@ -5,7 +5,7 @@
 - [x] [**Introduction**](#introduction) [video](https://youtu.be/gR8QvFmNuLE) 
 - [x] [**Search**](#search) [video](https://youtu.be/D5aJNFWsWew)
 - [x] [**Knowledge**](#knowledge) [video](https://youtu.be/HWQLez87vqM) => boring to watch, just skip it
-- [ ] [**Uncertainty**](#uncertainty) [video](https://youtu.be/D8RRq3TbtHU)
+- [x] [**Uncertainty**](#uncertainty) [video](https://youtu.be/D8RRq3TbtHU)
 - [x] [**Optimization**](#optimization) [video](https://youtu.be/qK46ET1xk2A)
 - [x] [**Learning**](#learning) [video](https://youtu.be/-g0iJjnO2_w)
 - [x] [**Neural Networks**](#neural-networks) [video](https://youtu.be/J1QD9hLDEDY)
@@ -95,6 +95,36 @@
   - First-order logic
 
 ## Uncertainty
+  - Probability
+    + Possible worlds: ω (omega)
+    + 0 <= P(ω) <= 1
+    + $ \sum_{\omega \in \Omega} P(\omega) = 1 $
+  - Unconditional probability
+    + degree of belief in a proposition in the absence of any other evidence
+  - Conditional Probability
+    + degree of belief in a proposition given in some evidence that has already been revealed
+    + P(a|b) represents the probability of event a occurring given that event b has already occurred
+    + $ P(a \mid b) = \frac{P(a \cap b)}{P(b)} $
+    + $ P(a \mid b) $ = Conditional probability of `a` given `b`
+    + $ P(a \cap b) $ = Probability of both `a` and `b` occurring
+    + $ P(b) $ = Probability of `b` occurring (must be greater than 0)
+  - Random variable
+    + a variable in probability theory with a domain of possible values in can take on
+  - Independence
+    + the knowledge that one event occurs does not effect the probability of the other event
+    + $ P(a \cap b) = P(a)P(b) $
+  - Bayes' rule
+    +  $ P(a \mid b) = \frac{P(b \mid a) \cdot P(a)}{P(b)} $
+  - Joint probability
+  - Probability rules
+  - Bayesian networks
+    + data structure that represents the dependencies among random variables
+    + directed graph
+    + each node represents a random variable
+    + arrow from X to Y means X is a parent of Y
+  - Sampling
+  - Markov Models
+  - Hidden Markov Models
 
 ## Optimization
   - Local search
