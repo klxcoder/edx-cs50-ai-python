@@ -9,7 +9,7 @@
 - [x] [**Optimization**](#optimization) [video](https://youtu.be/qK46ET1xk2A)
 - [x] [**Learning**](#learning) [video](https://youtu.be/-g0iJjnO2_w)
 - [x] [**Neural Networks**](#neural-networks) [video](https://youtu.be/J1QD9hLDEDY)
-- [ ] [**Language**](#language) [video](https://youtu.be/QAZc9xsQNjQ)
+- [x] [**Language**](#language) [video](https://youtu.be/QAZc9xsQNjQ)
 
 ---
 
@@ -254,10 +254,52 @@
   - feed-forward neural network
     + Neural network that has connections only in one direction
   - Recurrent Neural Networks
-    ![RNN - Image to text](./images/rnn.png)
-    ![RNN - Youtube](./images/rnn2.png)
-    ![RNN - Google Translate](./images/rnn3.png)
+    - Diagrams
+      + ![RNN - Image to text](./images/rnn.png)
+      + ![RNN - Youtube](./images/rnn2.png)
+      + ![RNN - Google Translate](./images/rnn3.png)
+    - Variations
+      + LSTM
 ## Language
-
+  - Natural language processing
+    + Automatic summarization
+    + Information extraction
+    + Machine translation
+    + Question answering
+    + Text classification
+  - formal grammar
+    + a system of rules for generating sentences in a language
+  - context-free grammar
+    + nltk: python library "natural languague toolkit"
+  - n-gram
+    + a contiguous squence of n items from a sample of text
+  - tokenization
+    + the task of splitting a sequence of characters into pieces (tokens)
+  - Markov chains
+    + markovify: python library
+  - Text classification
+    + Spam detection
+    + Sentiment analysis
+  - bag-of-words model
+    + model that represents text as unordered collection of words
+  - Naive Bayes
+    + Bayes' rule: P(b|a) = P(a|b) * P(b) / P(a)
+  - Laplace smoothing
+    + Adding 1 to each value in our distribution
+    + Pretending we've seen each value one or more time than we actually have
+  - Word representation
+    + one-hot representation
+      * representation of meaning as a vector with a single 1, and with other values as 0
+    + distributed representation
+      * representation of meaning distributed across multiple values
+  - word2vec
+    + Encoder/Decoder
+  - Attention
+    + ![Attention](./images/attention.png)
+  - Transformers
+    + Positional encoding
+    + Multi-heads Self-attention
+    + ![Transformer](./images/transformer.png)
+  - Artificial Intelligence
 ## Files
   - https://cdn.cs50.net/
