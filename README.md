@@ -4,7 +4,7 @@
 ## Contents [youtube-playlist](https://youtube.com/playlist?list=PLhQjrBD2T382Nz7z1AEXmioc27axa19Kv&si=zKXYVQFG5lwtb7tC)
 - [x] [**Introduction**](#introduction) [video](https://youtu.be/gR8QvFmNuLE) 
 - [x] [**Search**](#search) [video](https://youtu.be/D5aJNFWsWew)
-- [ ] [**Knowledge**](#knowledge) [video](https://youtu.be/HWQLez87vqM)
+- [x] [**Knowledge**](#knowledge) [video](https://youtu.be/HWQLez87vqM) => boring to watch, just skip it
 - [ ] [**Uncertainty**](#uncertainty) [video](https://youtu.be/D8RRq3TbtHU)
 - [x] [**Optimization**](#optimization) [video](https://youtu.be/qK46ET1xk2A)
 - [x] [**Learning**](#learning) [video](https://youtu.be/-g0iJjnO2_w)
@@ -79,10 +79,22 @@
       * Evaluation function
 
 ## Knowledge
-(TBD)  
+  - Knowledge
+    + knowledge-based agents
+      * agents that reason by operating on internal representations of knowledge
+    + sentence
+      * an assertion about the world in a knowledge representation language
+  - Propositional logic
+    + Propostion symbols: P Q R
+    + Logical connectives: ¬ ∧ ∨ → ↔
+  - Inference
+    + the process of deriving new sentences from old ones
+  - Knowledge engineering
+  - Inference rules
+  - Resolution
+  - First-order logic
 
 ## Uncertainty
-(TBD)  
 
 ## Optimization
   - Local search
