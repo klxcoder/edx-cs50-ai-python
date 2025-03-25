@@ -1,4 +1,4 @@
-# CS50's Introduction to Artificial Intelligence with Python  
+# CS50's Introduction to Artificial Intelligence with Python
 [Course Link](https://learning.edx.org/course/course-v1:HarvardX+CS50AI+1T2020/home)  
 
 ## Contents [youtube-playlist](https://youtube.com/playlist?list=PLhQjrBD2T382Nz7z1AEXmioc27axa19Kv&si=zKXYVQFG5lwtb7tC)
@@ -8,7 +8,7 @@
 - [ ] [**Uncertainty**](#uncertainty) [video](https://youtu.be/D8RRq3TbtHU)
 - [x] [**Optimization**](#optimization) [video](https://youtu.be/qK46ET1xk2A)
 - [x] [**Learning**](#learning) [video](https://youtu.be/-g0iJjnO2_w)
-- [ ] [**Neural Networks**](#neural-networks) [video](https://youtu.be/J1QD9hLDEDY)
+- [x] [**Neural Networks**](#neural-networks) [video](https://youtu.be/J1QD9hLDEDY)
 - [ ] [**Language**](#language) [video](https://youtu.be/QAZc9xsQNjQ)
 
 ---
@@ -78,13 +78,13 @@
       * Depth-limited minimax
       * Evaluation function
 
-## Knowledge  
+## Knowledge
 (TBD)  
 
-## Uncertainty  
+## Uncertainty
 (TBD)  
 
-## Optimization  
+## Optimization
   - Local search
     + Search algorithms that maintain a single node and searches by moving to a neighboring node
   - Global maximum
@@ -119,7 +119,7 @@
   - Arc consistency (AC-3)
   - Backtracking search (brute force with constraint pruning)
 
-## Learning  
+## Learning
   - Supervised learning
     + Given a data set of input-output pairs, learn a function to map inputs to outputs
     + Classification:
@@ -257,8 +257,7 @@
     ![RNN - Image to text](./images/rnn.png)
     ![RNN - Youtube](./images/rnn2.png)
     ![RNN - Google Translate](./images/rnn3.png)
-## Language  
-(TBD)  
+## Language
 
 ## Files
   - https://cdn.cs50.net/
